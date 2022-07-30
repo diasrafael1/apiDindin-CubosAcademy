@@ -1,1 +1,2 @@
-module.exports = 'senhatesteparagerarumtoken';
+require("dotenv").config();
+module.exports = process.env.JWT_PASSWORD;
